@@ -1,0 +1,4 @@
+interface:
+  display_name: "医学综述选题侦察"
+  short_description: "评估疾病与机制综述选题空间和查重风险"
+  default_prompt: "Use $medical-review-topic-scout to find a review topic with enough literature and limited direct competition for a disease-mechanism pair."
