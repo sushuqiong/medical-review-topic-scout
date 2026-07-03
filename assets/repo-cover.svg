@@ -1,0 +1,75 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Medical Review Topic Scout repository cover</title>
+  <desc id="desc">A visual overview of PubMed-driven biomedical review topic scouting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="0.55" stop-color="#EEF7F2"/>
+      <stop offset="1" stop-color="#FFF7E8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="162" y1="132" x2="565" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.52" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="1130" cy="95" r="86" fill="#DBEAFE" opacity="0.62"/>
+  <circle cx="1134" cy="536" r="112" fill="#FED7AA" opacity="0.42"/>
+  <circle cx="130" cy="548" r="92" fill="#CCFBF1" opacity="0.55"/>
+
+  <g transform="translate(88 86)">
+    <rect x="0" y="0" width="480" height="468" rx="28" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="28" y="30" width="92" height="28" rx="14" fill="#DBEAFE"/>
+    <text x="74" y="50" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8">PubMed</text>
+    <text x="28" y="122" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="800" fill="#0F172A">Medical Review</text>
+    <text x="28" y="178" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="800" fill="url(#accent)">Topic Scout</text>
+    <text x="30" y="234" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#334155">Find review angles with enough evidence</text>
+    <text x="30" y="268" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#334155">and less direct competition.</text>
+    <g transform="translate(30 324)">
+      <rect width="134" height="42" rx="21" fill="#EFF6FF"/>
+      <text x="67" y="27" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8">Evidence</text>
+      <rect x="152" width="128" height="42" rx="21" fill="#ECFDF5"/>
+      <text x="216" y="27" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#047857">Novelty</text>
+      <rect x="298" width="136" height="42" rx="21" fill="#FFF7ED"/>
+      <text x="366" y="27" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C">Search log</text>
+    </g>
+    <path d="M30 407H428" stroke="#E2E8F0" stroke-width="2"/>
+    <text x="30" y="436" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="650" fill="#475569">Standalone Python scanner + local Codex skill</text>
+  </g>
+
+  <g transform="translate(650 78)" filter="url(#shadow)">
+    <rect x="0" y="0" width="532" height="488" rx="30" fill="#FFFFFF"/>
+    <text x="34" y="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0F172A">Topic viability pipeline</text>
+    <g transform="translate(42 94)">
+      <rect width="196" height="86" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <text x="22" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#0F172A">1. Query builder</text>
+      <text x="22" y="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#64748B">Synonyms + MeSH blocks</text>
+      <path d="M217 43H272" stroke="#EF4444" stroke-width="5" stroke-linecap="round"/>
+      <path d="M264 29L282 43L264 57" stroke="#EF4444" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="302" width="156" height="86" rx="18" fill="#EFF6FF" stroke="#93C5FD"/>
+      <text x="324" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#1E3A8A">2. PubMed</text>
+      <text x="324" y="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#475569">Counts + samples</text>
+    </g>
+    <g transform="translate(42 222)">
+      <rect width="196" height="86" rx="18" fill="#ECFDF5" stroke="#99F6E4"/>
+      <text x="22" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#064E3B">3. Competition</text>
+      <text x="22" y="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#64748B">Recent direct reviews</text>
+      <path d="M217 43H272" stroke="#EF4444" stroke-width="5" stroke-linecap="round"/>
+      <path d="M264 29L282 43L264 57" stroke="#EF4444" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="302" width="156" height="86" rx="18" fill="#FFF7ED" stroke="#FDBA74"/>
+      <text x="324" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#9A3412">4. Score</text>
+      <text x="324" y="61" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#64748B">Space to write</text>
+    </g>
+    <g transform="translate(42 350)">
+      <rect width="416" height="78" rx="20" fill="#0F172A"/>
+      <text x="28" y="32" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" fill="#F8FAFC">Chinese topic report</text>
+      <text x="28" y="57" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#CBD5E1">title, gap, outline, search strategy, backup angles</text>
+      <circle cx="370" cy="39" r="20" fill="#22C55E"/>
+      <path d="M360 39L368 47L383 30" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

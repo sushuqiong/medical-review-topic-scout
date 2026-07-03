@@ -1,8 +1,26 @@
+<p align="center">
+  <img src="assets/repo-cover.svg" alt="Medical Review Topic Scout cover" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/sushuqiong/medical-review-topic-scout"><img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white"></a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/"><img alt="PubMed" src="https://img.shields.io/badge/PubMed-E--utilities-326599"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/sushuqiong/medical-review-topic-scout"></a>
+  <a href="https://github.com/sushuqiong/medical-review-topic-scout/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/sushuqiong/medical-review-topic-scout?style=social"></a>
+</p>
+
 # Medical Review Topic Scout
 
 Find review topics that are **not too empty, not too saturated, and easier to justify with PubMed evidence**.
 
 `medical-review-topic-scout` is a local Codex skill plus a standalone Python scanner for biomedical literature review topic scouting. It turns a rough pair such as `gastric cancer + cancer-associated fibroblasts` into candidate review angles, PubMed search strings, recent-review competition checks, and a Chinese-style topic report.
+
+## Highlights
+
+- **Evidence-first topic scouting**: turn rough disease/mechanism ideas into reproducible PubMed search checks.
+- **Competition-aware scoring**: compare total evidence, recent reviews, and stricter title-level direct reviews.
+- **Report-ready outputs**: export search logs, sample papers, viability labels, and Chinese topic report structure.
+- **Local and lightweight**: works as a Python script or as a local Codex skill, with no API key required for light use.
 
 ## What it helps you answer
 
