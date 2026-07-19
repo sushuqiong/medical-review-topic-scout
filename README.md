@@ -48,6 +48,7 @@ flowchart LR
 | `SKILL.md` | Codex skill instructions and report workflow |
 | `scripts/pubmed_topic_scan.py` | PubMed E-utilities scanner for counts, direct-review checks, query translation capture, scoring, JSON/CSV export, synonym blocks, and MeSH terms |
 | `references/report-template.md` | Copyable Chinese topic report template |
+| `references/release-process.md` | Release note and version-maintenance guidance |
 | `agents/openai.yaml` | UI metadata for the skill |
 
 ## Quick start: run the PubMed scanner
@@ -169,6 +170,12 @@ The skill writes the final answer in Chinese by default:
 - Do not claim a topic has “never been written” unless reproducible searches support that conclusion.
 - Avoid entering patient identifiers or protected health information into search prompts.
 - This project supports literature topic selection and does not provide clinical diagnosis or treatment advice.
+
+## Project maintenance
+
+- [CHANGELOG.md](./CHANGELOG.md)
+- [references/release-process.md](./references/release-process.md)
+- [.github/release-template.md](./.github/release-template.md)
 
 ## Keywords
 
